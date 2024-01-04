@@ -1,9 +1,11 @@
+import 'package:appwrite/appwrite.dart';
 import 'package:flutter/material.dart';
 import 'package:uenr_noticeboard_mobile/counter/counter.dart';
 import 'package:uenr_noticeboard_mobile/l10n/l10n.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
+
 
 
   @override
