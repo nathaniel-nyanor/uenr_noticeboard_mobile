@@ -1,5 +1,4 @@
 import 'package:appwrite/appwrite.dart';
-import 'package:flutter/material.dart';
 
 class AppService{
   Future<void>appService () async {
