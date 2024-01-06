@@ -1,11 +1,13 @@
 import 'package:appwrite/appwrite.dart';
+import 'package:uenr_noticeboard_mobile/core/core.dart';
 
 class AppService{
+  
   Future<void>appService () async {
     Client client = Client();
     client
-        .setEndpoint('https://cloud.appwrite.io/v1') // Endpoint
-        .setProject('65335295d6476703429c'); // Project ID
+        .setEndpoint(AppwriteConstants.appwriteEnpointUrl) // Endpoint
+        .setProject(AppwriteConstants.appwriteProjectId); // Project ID
 
   }
 }
